@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pocket Network</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+</head>
+<body>
+
+<section id="hero-section">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center flex-wrap-reverse">
+            <div class="col-md-7 hero-leftside">
+                <img src="./img/logo-pokt.png" alt="logo">
+                <img class="d-none" src="./img/bg-hero.png" alt="frame">
+                <h1>Pocket Network</h1>
+                <p>
+                    Pocket Network is a crypto project that aims to create a kind of “decentralized Infura''. Infura is
+                    a
+                    consensus product that allows any blockchain developer of a decentralized application to connect
+                    directly to Ethereum or other blockchain nodes using a very simple API without having to launch
+                    their own node.
+                </p>
+            </div>
+            <div class="col-md-5 hero-rightside">
+                <img src="./img/bg-hero.png" alt="frame">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 info-block">
+                <p>
+                    At Infura, you pay a certain amount for each API request. Thus, this is a great business for Infura,
+                    because they lease the nodes, and it is profitable for the developers, because they do not have to
+                    deal with the support of the nodes. Usually companies are obliged to pay for it. In addition, the
+                    support of nodes is associated with certain risks – the data centers, electricity, and the Internet
+                    can be turned off at any moment. Nowadays the blockchain is so advanced that you don't need to
+                    maintain your own nodes for your service, especially when it comes to small startups.
+                </p>
+                <p>
+                    However, Infura has monopolized the market, and at the moment, Infura is connected to 25% to 50% of
+                    all global blockchain applications. On the one hand, this is good, because the owner of Infura is a
+                    solid company ConsenSys, but on the other hand, there is no decentralization. The blockchain itself
+                    is decentralized, but the access point to the blockchain – Infura – is centralized. This is the only
+                    node that keeps consensus, but only developers have access to it.
+                </p>
+                <p>
+                    For example, when you work with an application through MetaMask, it is connected to Infura. When you
+                    enter MetaMask and your wallet balance is loaded, the information does not come directly from the
+                    blockchain, but Infura takes data from the blockchain and transfers it to MetaMask. There are two
+                    possibilities for getting data from the blockchain: either you can be the blockchain node that
+                    stores the entire blockchain, or deal with Infura, the node that you pay to provide the data.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 info-block">
+                <p>
+                    Some companies don't want to deal with Infura because it breaks down regularly. This is a serious
+                    problem. Decentralization is the solution. But how do you make Infura decentralized? Pocket Network
+                    developers have come up with the following model: node-operators of Ethereum, Solana, Polkadot,
+                    Avalanche and other blockchains are engaged in mining. They are given the opportunity to earn extra
+                    money through the fact that they provide their own nodes to third-party developers to use in
+                    Infura-like fashion.
+                </p>
+                <p>
+                    Pocket Network has created a payment gateway that charges users a fee for each request addressed to
+                    these nodes, and they receive payment in POKT tokens. Thus, Pocket Network provides exactly the same
+                    service as Infura, but instead of a single centralized node, there are hundreds or thousands of
+                    nodes. For miners, keeping a node is their main business, because if they go offline, they do not
+                    receive a block reward. Even if one node crashes, there are many others that process requests
+                    addressed to that non-functioning node. This way, the running state of the application is always
+                    maintained.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/bg-about.png" alt="frame">
+            </div>
+            <div class="col-md-6">
+                <div class="about-block">
+                    <h2>
+                        Goals of cooperation with Boosty Labs
+                    </h2>
+                    <p>
+                        POKT, the native Pocket Network token, is hosted on the Tendermint blockchain, which is
+                        connected to the Cosmos blockchain. But the problem is that no matter what blockchain your token
+                        is issued on, it must be duplicated on the Ethereum blockchain, where the bulk of the money is
+                        concentrated. Otherwise, it will be difficult to raise capital, and it will be difficult for
+                        token holders to use them for speculation, investment, etc. Tokens are duplicated through a
+                        bridge.
+                    </p>
+                </div>
+                <div class="about-block">
+                    <h2>
+                        List of services rendered
+                    </h2>
+                    <p>
+                        Pocket Network develops a bridge application, thanks to which users can send a POKT token to the
+                        address of the bridge. This token is burned, and a wrapped POKT token, which correlates with the
+                        POKT token at a one-to-one rate, is created.This wrapped POKT token is issued on Ethereum. If
+                        the user wants to do the reverse conversion, he returns a wrapped POKT token, which is burned
+                        and a regular POKT token is issued. This is how tokens migrate between blockchains, and Boosty
+                        Labs creates a bridge for this.
+                    </p>
+                </div>
+                <div class="about-block">
+                    <h2>
+                        Duration of cooperation
+                    </h2>
+                    <p>
+                        The period of cooperation is from June 2021 to the present.
+                    </p>
+                </div>
+                <div class="about-block">
+                    <h2>
+                        Budget size
+                    </h2>
+                    <p>
+                        Boosty Labs performs smart contracts, backend and frontend work for Pocket Network. The
+                        technologies used are Go (backend), React (frontend), Solidity language, and Tendermint Cosmos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

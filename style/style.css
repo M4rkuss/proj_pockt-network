@@ -1,0 +1,94 @@
+@import "fonts.css";
+@import "media.css";
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+#hero-section {
+    background: linear-gradient(104.41deg, #101C25 0%, #353742 100%);
+    padding: 115px 0 132px 0;
+}
+
+.hero-leftside img:first-child {
+    width: 226px;
+    margin-bottom: 30px;
+}
+
+.hero-leftside h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    margin-bottom: 27px;
+    color: #1890FF;
+}
+
+.hero-leftside p {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+#info-section {
+    padding: 93px 0 108px 0;
+    background: url("../img/bg-info1.png") top 74px right no-repeat, url("../img/bg-info3.png") bottom 102px left no-repeat, url("../img/bg-info2.png") bottom -200px left -70px no-repeat, linear-gradient(170.68deg, #10171D 0%, #2B2D37 100%);
+}
+
+
+#info-section .info-block {
+    background: rgba(28, 48, 84, 0.6);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+    border-radius: 15px;
+    padding: 63px 114px 68px 102px;
+}
+
+#info-section .row:first-child .info-block {
+    margin-bottom: 19px;
+}
+
+#info-section .info-block p {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+#about-section {
+    background: linear-gradient(104.41deg, #101C25 0%, #353742 100%);
+    padding: 202px 0 218px 0;
+}
+
+#about-section .col-md-6 img {
+    position: absolute;
+    top: 25px;
+    left: -100px;
+}
+
+.about-block:not(:first-child) {
+    margin-top: 52px;
+}
+
+.about-block h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #1890FF;
+    margin-bottom: 32px;
+}
+
+.about-block p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 593px;
+}
